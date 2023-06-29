@@ -1,6 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import Header from "@/components/Header";
+import { ModeToggle } from "@/components/DarkModeToggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,11 @@ export default function RootLayout({
       <body className={inter.className}>
         {" "}
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <Header />
           {children}
+          <div className="fixed bottom-10 right-10">
+            <ModeToggle />
+          </div>
         </ThemeProvider>
       </body>
     </html>
