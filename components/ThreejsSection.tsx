@@ -23,27 +23,27 @@ const ThreejsSection = () => {
         onPointerOver={(event) => hover(true)}
         onPointerOut={(event) => hover(false)}
       >
-        <boxGeometry args={[5, 5, 5]} />
+        <boxGeometry args={[10, 10, 10]} />
         <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
       </mesh>
     );
   }
 
   return (
-    <div className="w-full h-full">
+    <div className="w-full md:h-[500px] h-full">
       <Canvas>
         <PerspectiveCamera
           makeDefault
           fov={75}
           near={0.1}
           far={1000}
-          position={[0, 0, 10]}
+          position={[0, 0, 20]}
         />
         <ambientLight intensity={0.5} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
         <pointLight position={[-10, -10, -10]} />
-        <Box position={[-5, 0, 0]} />
-        <Box position={[5, 0, 0]} />
+        <Box position={[-10, 0, 0]} />
+        <Box position={[10, 0, 0]} />
       </Canvas>
     </div>
   );

@@ -14,7 +14,7 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className="grid grid-cols-2 gap-5 mt-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
       <Card className="w-[400px] mt-5">
         <CardHeader>
           <CardTitle>Nextjs Prompt Project</CardTitle>
