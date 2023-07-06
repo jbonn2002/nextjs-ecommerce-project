@@ -132,7 +132,12 @@ const Projects = () => {
             </Link>
           </Button>
           <Button asChild>
-            <Link href="">Live Site</Link>
+            <Link
+              href="https://nextjs-reddit-clone-delta.vercel.app/"
+              target="_blank"
+            >
+              Live Site
+            </Link>
           </Button>
         </CardFooter>
       </Card>
