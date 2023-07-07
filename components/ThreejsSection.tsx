@@ -1,18 +1,32 @@
 "use client";
 
-import { PerspectiveCamera, OrbitControls } from "@react-three/drei";
-import { Canvas, useFrame, useLoader } from "@react-three/fiber";
-import { Suspense, useRef } from "react";
-import { Object3D } from "three";
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import { OrbitControls, PerspectiveCamera } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import {
+  Bloom,
+  DepthOfField,
+  EffectComposer,
+} from "@react-three/postprocessing";
 import { Model } from "./Awindyday";
-import { ClipLoader } from "react-spinners";
-import Loading from "@/app/loading";
 
 const ThreejsSection = () => {
   return (
     <div className="w-full md:h-[500px] h-full">
       <Canvas>
+        <EffectComposer>
+          <DepthOfField
+            focusDistance={0}
+            focalLength={0.02}
+            bokehScale={5}
+            height={480}
+          />
+          <Bloom
+            intensity={2}
+            luminanceThreshold={0.1}
+            luminanceSmoothing={0.9}
+            height={1000}
+          />
+        </EffectComposer>
         <PerspectiveCamera
           makeDefault
           fov={75}
@@ -20,14 +34,12 @@ const ThreejsSection = () => {
           far={1000}
           position={[0, 0, 2]}
         />
-        <OrbitControls />
-        <ambientLight intensity={0.5} />
+        <OrbitControls maxDistance={10} />
+        {/* <ambientLight intensity={0.5} />
         <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-        <pointLight position={[-10, -10, -10]} />
+        <pointLight position={[-10, -10, -10]} /> */}
 
         <Model />
-        {/* <Box position={[-10, 0, 0]} />
-        <Box position={[10, 0, 0]} /> */}
       </Canvas>
     </div>
   );
