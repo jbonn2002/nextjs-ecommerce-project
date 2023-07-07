@@ -29,6 +29,7 @@ export default function RootLayout({
             <ModeToggle />
           </div>
           <Toaster />
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
