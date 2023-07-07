@@ -1,4 +1,6 @@
 import ThreejsSection from "@/components/ThreejsSection";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 export default function Home() {
   return (
@@ -11,7 +13,9 @@ export default function Home() {
         </span>
       </h1>
       <hr className="w-[75%] h-px my-6" />
-      <ThreejsSection />
+      <Suspense fallback={<Loading />}>
+        <ThreejsSection />
+      </Suspense>
       <hr className="w-[75%] h-px my-6" />
       <p className="desc sm:p-0 p-10 max-w-2xl text-center dark:text-white">
         My name is jordan bonnaire, as a front-end web developer, I am dedicated

@@ -1,8 +1,10 @@
-import "./globals.css";
-import { Inter } from "next/font/google";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import Header from "@/components/Header";
 import { ModeToggle } from "@/components/DarkModeToggle";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import { Toaster } from "@/components/ui/toaster";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +28,8 @@ export default function RootLayout({
           <div className="fixed bottom-10 right-10">
             <ModeToggle />
           </div>
+          <Footer />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
