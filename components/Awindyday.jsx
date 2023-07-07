@@ -17,11 +17,6 @@ export function Model(props) {
   const { ref, actions, names } = useAnimations(animations, group);
   const [index, setIndex] = useState(4);
 
-  useEffect(() => {
-    actions.Object_0.timeScale = 0.5;
-    actions.Object_0.play();
-  });
-
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
