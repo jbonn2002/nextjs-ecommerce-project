@@ -1,6 +1,7 @@
 import ThreejsSection from "@/components/ThreejsSection";
 import { Suspense } from "react";
 import Loading from "./loading";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         solutions.
       </p>
       <hr className="w-[75%] h-px my-6" />
+      <Footer />
     </section>
   );
 }

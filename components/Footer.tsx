@@ -1,26 +1,19 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
-import Modal from "./Modal";
+import { Box, Github, Linkedin, Twitter } from "lucide-react";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
   navigationMenuTriggerStyle,
 } from "./ui/NavigationMenu";
-import { Box, Github, Linkedin, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
     <div className="flex items-center justify-center">
-      <NavigationMenu className="m-5">
-        <NavigationMenuList>
+      <NavigationMenu className="m-5 overflow-hidden">
+        <NavigationMenuList className="grid grid-cols-2 md:flex md:items-center md:justify-center">
           <NavigationMenuItem>
             <NavigationMenuLink
               href="https://www.linkedin.com/in/jordan-bonnaire/"
@@ -33,6 +26,7 @@ const Footer = () => {
               </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
+
           <NavigationMenuItem>
             <NavigationMenuLink
               href="https://github.com/jbonn2002"
@@ -45,6 +39,7 @@ const Footer = () => {
               </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
+
           <NavigationMenuItem>
             <NavigationMenuLink
               href="https://twitter.com/JordybDev"
@@ -57,6 +52,7 @@ const Footer = () => {
               </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
+
           <NavigationMenuItem>
             <NavigationMenuLink
               href="https://sketchfab.com/3d-models/a-windy-day-fb78f4cc938144e6902dd5cff354d525"
