@@ -17,16 +17,14 @@ const Projects = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>Nextjs Prompt Project</CardTitle>
-          <CardDescription>
-            Next-Auth, MongoDB, Mongoose, TailwindCSS
-          </CardDescription>
+          <CardTitle>Seafood Restraunt Page</CardTitle>
+          <CardDescription>Nextjs, Tailwind, Typescript</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid w-full items-center gap-4">
             <div className="flex justify-center space-y-1.5">
               <Image
-                src="/prompt-project-screenshot.png"
+                src="/seafoodss.png"
                 alt="test"
                 width={500}
                 height={500}
@@ -38,7 +36,7 @@ const Projects = () => {
         <CardFooter className="flex justify-between">
           <Button asChild variant="outline">
             <Link
-              href="https://github.com/jbonn2002/Nextjs-prompt-project/"
+              href="https://github.com/jbonn2002/nextjs-seafood-page"
               target="_blank"
             >
               GitHub
@@ -49,7 +47,7 @@ const Projects = () => {
           </Button>
           <Button asChild>
             <Link
-              href="https://nextjs-prompt-project.vercel.app/"
+              href="https://nextjs-seafood-page.vercel.app/"
               target="_blank"
             >
               Live Site
@@ -143,14 +141,16 @@ const Projects = () => {
       </Card>
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>React Hoobank Clone</CardTitle>
-          <CardDescription>React, Tailwind</CardDescription>
+          <CardTitle>Nextjs Prompt Project</CardTitle>
+          <CardDescription>
+            Next-Auth, MongoDB, Mongoose, TailwindCSS
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid w-full items-center gap-4">
             <div className="flex justify-center space-y-1.5">
               <Image
-                src="/HoobankSs.png"
+                src="/prompt-project-screenshot.png"
                 alt="test"
                 width={500}
                 height={500}
@@ -162,7 +162,7 @@ const Projects = () => {
         <CardFooter className="flex justify-between">
           <Button asChild variant="outline">
             <Link
-              href="https://github.com/jbonn2002/first-react-project"
+              href="https://github.com/jbonn2002/Nextjs-prompt-project/"
               target="_blank"
             >
               GitHub
@@ -172,7 +172,10 @@ const Projects = () => {
             </Link>
           </Button>
           <Button asChild>
-            <Link href="https://reacthoobankclone.netlify.app/" target="_blank">
+            <Link
+              href="https://nextjs-prompt-project.vercel.app/"
+              target="_blank"
+            >
               Live Site
             </Link>
           </Button>
