@@ -57,16 +57,16 @@ const Projects = () => {
       </Card>
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>Nextjs Spotify Project</CardTitle>
+          <CardTitle>Nextjs Networth Tracker</CardTitle>
           <CardDescription>
-            Typescript, TailwindCSS, Supabase, Stripe
+            Next-Auth, Prisma, Tailwind, TypeScript
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid w-full items-center gap-4">
             <div className="flex justify-center space-y-1.5">
               <Image
-                src="/spotifyclonescreenshot.png"
+                src="/networth-screenshot.png"
                 alt="test"
                 width={500}
                 height={500}
@@ -78,7 +78,7 @@ const Projects = () => {
         <CardFooter className="flex justify-between">
           <Button asChild variant="outline">
             <Link
-              href="https://github.com/jbonn2002/Nextjs-Spotify-Project"
+              href="https://github.com/jbonn2002/nextjs-networth-tracker"
               target="_blank"
             >
               GitHub
@@ -89,7 +89,7 @@ const Projects = () => {
           </Button>
           <Button asChild>
             <Link
-              href="https://nextjs-spotify-project.vercel.app/"
+              href="https://nextjs-networth-tracker.vercel.app/"
               target="_blank"
             >
               Live Site
@@ -141,16 +141,16 @@ const Projects = () => {
       </Card>
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>Nextjs Prompt Project</CardTitle>
+          <CardTitle>Nextjs Spotify Project</CardTitle>
           <CardDescription>
-            Next-Auth, MongoDB, Mongoose, TailwindCSS
+            Typescript, TailwindCSS, Supabase, Stripe
           </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid w-full items-center gap-4">
             <div className="flex justify-center space-y-1.5">
               <Image
-                src="/prompt-project-screenshot.png"
+                src="/spotifyclonescreenshot.png"
                 alt="test"
                 width={500}
                 height={500}
@@ -162,7 +162,7 @@ const Projects = () => {
         <CardFooter className="flex justify-between">
           <Button asChild variant="outline">
             <Link
-              href="https://github.com/jbonn2002/Nextjs-prompt-project/"
+              href="https://github.com/jbonn2002/Nextjs-Spotify-Project"
               target="_blank"
             >
               GitHub
@@ -173,7 +173,7 @@ const Projects = () => {
           </Button>
           <Button asChild>
             <Link
-              href="https://nextjs-prompt-project.vercel.app/"
+              href="https://nextjs-spotify-project.vercel.app/"
               target="_blank"
             >
               Live Site
