@@ -21,10 +21,10 @@ const ThreejsSection = () => {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             exit={{ scale: 0 }}
-            className="group absolute bottom-96 z-10 mx-auto max-w-sm rounded-md border border-gray-200 bg-black/50 bg-opacity-90 px-5 py-4 shadow-md backdrop-blur-md sm:py-7"
+            className="group absolute z-10 mx-auto max-w-sm rounded-md border border-gray-200 bg-black/50 bg-opacity-90 px-5 py-4 shadow-md backdrop-blur-md sm:py-7"
           >
             <button
-              className="group visible absolute right-0 top-0 float-right m-3 rounded-full p-1 transition-all duration-75 hover:bg-green-500 focus:outline-none active:scale-75 group-hover:visible sm:invisible"
+              className="group visible absolute right-0 top-0 float-right m-3 rounded-full p-1 transition-all duration-75 dark:hover:bg-green-500 hover:bg-blue-500 focus:outline-none active:scale-75 group-hover:visible sm:invisible"
               autoFocus={false}
               onClick={() => setShowModal(false)}
             >
@@ -37,7 +37,7 @@ const ThreejsSection = () => {
             <Link
               href="https://github.com/jbonn2002"
               target="_blank"
-              className="mx-auto mt-2 flex max-w-fit rounded-full border border-black bg-black px-4 py-1.5 text-sm text-white hover:bg-green-500 hover:text-black sm:mt-4"
+              className="mx-auto mt-2 flex max-w-fit rounded-full border border-black bg-black px-4 py-1.5 text-sm text-white dark:hover:bg-green-500 hover:text-black hover:bg-blue-500 sm:mt-4"
             >
               GitHub
               <div className="ml-2">
