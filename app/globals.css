@@ -144,6 +144,11 @@
 
 /* Tailwind Styles */
 
+.filterBlue {
+  filter: invert(59%) sepia(74%) saturate(2945%) hue-rotate(166deg)
+    brightness(92%) contrast(97%);
+}
+
 .app {
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }

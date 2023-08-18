@@ -47,7 +47,7 @@ const ThreejsSection = () => {
           </motion.div>
         )}
       </AnimatePresence>
-      <div className="w-full md:h-[500px] h-full">
+      <div className="w-full md:h-[500px] h-full dark:filter-none filterBlue">
         <Canvas>
           <PerspectiveCamera makeDefault fov={75} position={[0, 0, 2]} />
           <ambientLight intensity={0.5} />
