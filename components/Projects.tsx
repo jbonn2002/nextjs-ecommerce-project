@@ -17,46 +17,6 @@ const Projects = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>Seafood Restraunt Page</CardTitle>
-          <CardDescription>Nextjs, Tailwind, Typescript</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="grid w-full items-center gap-4">
-            <div className="flex justify-center space-y-1.5">
-              <Image
-                src="/seafoodss.png"
-                alt="test"
-                width={500}
-                height={500}
-                className="transition hover:scale-110"
-              />
-            </div>
-          </div>
-        </CardContent>
-        <CardFooter className="flex justify-between">
-          <Button asChild variant="outline">
-            <Link
-              href="https://github.com/jbonn2002/nextjs-seafood-page"
-              target="_blank"
-            >
-              GitHub
-              <div className="ml-2">
-                <Github />
-              </div>
-            </Link>
-          </Button>
-          <Button asChild>
-            <Link
-              href="https://nextjs-seafood-page.vercel.app/"
-              target="_blank"
-            >
-              Live Site
-            </Link>
-          </Button>
-        </CardFooter>
-      </Card>
-      <Card className="w-[400px] mt-5">
-        <CardHeader>
           <CardTitle>Nextjs Networth Tracker</CardTitle>
           <CardDescription>
             Next-Auth, Prisma, Tailwind, TypeScript
@@ -90,6 +50,46 @@ const Projects = () => {
           <Button asChild>
             <Link
               href="https://nextjs-networth-tracker.vercel.app/"
+              target="_blank"
+            >
+              Live Site
+            </Link>
+          </Button>
+        </CardFooter>
+      </Card>
+      <Card className="w-[400px] mt-5">
+        <CardHeader>
+          <CardTitle>Nextjs Saas Template Project</CardTitle>
+          <CardDescription>Typescript, TailwindCSS, Clerk</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="grid w-full items-center gap-4">
+            <div className="flex justify-center space-y-1.5">
+              <Image
+                src="/exemplarium.png"
+                alt="test"
+                width={500}
+                height={500}
+                className="transition hover:scale-110"
+              />
+            </div>
+          </div>
+        </CardContent>
+        <CardFooter className="flex justify-between">
+          <Button asChild variant="outline">
+            <Link
+              href="https://github.com/jbonn2002/nextjs-saas-project"
+              target="_blank"
+            >
+              GitHub
+              <div className="ml-2">
+                <Github />
+              </div>
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link
+              href="https://nextjs-saas-project-alpha.vercel.app/"
               target="_blank"
             >
               Live Site
@@ -141,16 +141,14 @@ const Projects = () => {
       </Card>
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>Nextjs Spotify Project</CardTitle>
-          <CardDescription>
-            Typescript, TailwindCSS, Supabase, Stripe
-          </CardDescription>
+          <CardTitle>Seafood Restraunt Page</CardTitle>
+          <CardDescription>Nextjs, Tailwind, Typescript</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid w-full items-center gap-4">
             <div className="flex justify-center space-y-1.5">
               <Image
-                src="/spotifyclonescreenshot.png"
+                src="/seafoodss.png"
                 alt="test"
                 width={500}
                 height={500}
@@ -162,7 +160,7 @@ const Projects = () => {
         <CardFooter className="flex justify-between">
           <Button asChild variant="outline">
             <Link
-              href="https://github.com/jbonn2002/Nextjs-Spotify-Project"
+              href="https://github.com/jbonn2002/nextjs-seafood-page"
               target="_blank"
             >
               GitHub
@@ -173,7 +171,7 @@ const Projects = () => {
           </Button>
           <Button asChild>
             <Link
-              href="https://nextjs-spotify-project.vercel.app/"
+              href="https://nextjs-seafood-page.vercel.app/"
               target="_blank"
             >
               Live Site
