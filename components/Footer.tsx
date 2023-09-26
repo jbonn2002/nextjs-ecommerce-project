@@ -52,19 +52,6 @@ const Footer = () => {
               </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
-
-          <NavigationMenuItem>
-            <NavigationMenuLink
-              href="https://sketchfab.com/3d-models/a-windy-day-fb78f4cc938144e6902dd5cff354d525"
-              target="_blank"
-              className={navigationMenuTriggerStyle()}
-            >
-              3D Model
-              <div className="ml-2">
-                <Box />
-              </div>
-            </NavigationMenuLink>
-          </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
     </div>
