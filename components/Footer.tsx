@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Github, Linkedin, Twitter } from "lucide-react";
+import { Box, FileText, Github, Linkedin, Twitter } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className="flex items-center justify-center">
       <NavigationMenu className="m-5 overflow-hidden">
-        <NavigationMenuList className="grid grid-cols-2 md:flex md:items-center md:justify-center">
+        <NavigationMenuList className="grid grid-cols-2 gap-1 md:flex md:items-center md:justify-center">
           <NavigationMenuItem>
             <NavigationMenuLink
               href="https://www.linkedin.com/in/jordan-bonnaire/"
@@ -49,6 +49,18 @@ const Footer = () => {
               Twitter
               <div className="ml-2">
                 <Twitter />
+              </div>
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink
+              href="/resume.pdf"
+              target="_blank"
+              className={navigationMenuTriggerStyle()}
+            >
+              Resume
+              <div className="ml-2">
+                <FileText />
               </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
