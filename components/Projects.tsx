@@ -59,7 +59,7 @@ const Projects = () => {
       </Card>
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>Nextjs Saas Template Project</CardTitle>
+          <CardTitle>Nextjs Saas Template</CardTitle>
           <CardDescription>Typescript, TailwindCSS, Clerk</CardDescription>
         </CardHeader>
         <CardContent>
