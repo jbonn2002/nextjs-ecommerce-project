@@ -2,12 +2,15 @@ import { ModeToggle } from "@/components/DarkModeToggle";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import { Toaster } from "@/components/ui/toaster";
-import { Inter } from "next/font/google";
-import "./globals.css";
 import Background from "@/components/background";
+import { Toaster } from "@/components/ui/toaster";
+import localFont from "next/font/local";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const satoshi = localFont({
+  src: "../fonts/satoshi/Satoshi-Variable.woff2",
+  display: "swap",
+});
 
 export const metadata = {
   title: "JordybDev",
@@ -21,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={satoshi.className}>
         {" "}
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Background />
