@@ -18,18 +18,16 @@ export default function Home() {
       </Suspense>
       <hr className="w-[75%] h-px my-6" />
       <p className="desc sm:p-0 p-10 max-w-2xl text-center dark:text-white">
-        My name is jordan bonnaire, as a front-end web developer, I am dedicated
-        to creating visually stunning and user-friendly websites that engage and
-        captivate users. My expertise includes proficiency in HTML, CSS,
-        JavaScript, and various front-end libraries and frameworks such as
-        Three.js, React, and Gsap. I am committed to understanding user needs
-        and designing intuitive user interfaces that provide a seamless
-        experience across all devices. My attention to detail and ability to
-        think creatively allows me to create beautiful and functional designs
-        that enhance the overall user experience. I am passionate about staying
-        up-to-date with the latest front-end development trends and techniques
-        to ensure that my clients receive the most innovative and effective
-        solutions.
+        As a software engineer, I have gained extensive experience in frontend
+        development, particularly in JavaScript, TypeScript, React, and Tailwind
+        Css. I am proficient in utilizing frameworks such as React and Next.js
+        to build dynamic and responsive web applications. Additionally, my
+        knowledge of Node.js and MongoDB allows me to seamlessly integrate
+        frontend and backend functionalities. Looking to grow and learn, I love
+        to code and want to become a better software developer. I am a striving
+        self-taught software engineer looking for an opportunity to work and
+        succeed as a developer. I am a quick learner, detail-oriented, and
+        thrive in collaborative environments.
       </p>
       <hr className="w-[75%] h-px my-6" />
     </section>
