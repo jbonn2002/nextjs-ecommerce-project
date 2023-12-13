@@ -141,14 +141,16 @@ const Projects = () => {
       </Card>
       <Card className="w-[400px] mt-5">
         <CardHeader>
-          <CardTitle>Seafood Restraunt Page</CardTitle>
-          <CardDescription>Nextjs, Tailwind, Typescript</CardDescription>
+          <CardTitle>Nextjs/Shopify Ecommerce Store</CardTitle>
+          <CardDescription>
+            Nextjs, Tailwind, Typescript, Shopify CMS
+          </CardDescription>
         </CardHeader>
         <CardContent>
           <div className="grid w-full items-center gap-4">
             <div className="flex justify-center space-y-1.5">
               <Image
-                src="/seafoodss.png"
+                src="/luminaryscreenshot.png"
                 alt="test"
                 width={500}
                 height={500}
@@ -160,7 +162,7 @@ const Projects = () => {
         <CardFooter className="flex justify-between">
           <Button asChild variant="outline">
             <Link
-              href="https://github.com/jbonn2002/nextjs-seafood-page"
+              href="https://github.com/jbonn2002/nextjs-commerce-project"
               target="_blank"
             >
               GitHub
@@ -171,7 +173,7 @@ const Projects = () => {
           </Button>
           <Button asChild>
             <Link
-              href="https://nextjs-seafood-page.vercel.app/"
+              href="https://nextjs-commerce-project.vercel.app/"
               target="_blank"
             >
               Live Site
