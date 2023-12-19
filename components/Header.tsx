@@ -14,10 +14,11 @@ import {
   NavigationMenuViewport,
   navigationMenuTriggerStyle,
 } from "./ui/NavigationMenu";
+import { Button } from "./ui/Button";
 
 const Header = () => {
   return (
-    <NavigationMenu className="fixed top-0 right-20">
+    <NavigationMenu className="absolute top-0 right-20 mt-5">
       <NavigationMenuList>
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>

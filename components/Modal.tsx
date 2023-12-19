@@ -77,42 +77,6 @@ const Modal = () => {
             Let's make your imaginations come to life
           </DialogDescription>
         </DialogHeader>
-        {/* <form onSubmit={handleSubmit}>
-          <div className="grid gap-4 py-4">
-            <div className="grid grid-cols-4 items-center gap-4">
-              <Label htmlFor="name" className="text-right">
-                Name
-              </Label>
-              <Input id="name" placeholder="Name" className="col-span-3" />
-            </div>
-            <div className="grid grid-cols-4 items-center gap-4">
-              <Label htmlFor="username" className="text-right">
-                Email
-              </Label>
-              <Input id="username" placeholder="Email" className="col-span-3" />
-            </div>
-            <div className="grid grid-cols-4 items-center gap-4">
-              <Label htmlFor="username" className="text-right">
-                Subject
-              </Label>
-              <Input
-                id="username"
-                placeholder="Subject"
-                className="col-span-3"
-              />
-            </div>
-            <div className="grid grid-cols-4 items-center gap-4">
-              <Label htmlFor="username" className="text-right">
-                Message
-              </Label>
-              <Textarea
-                id="username"
-                placeholder="Message"
-                className="col-span-3"
-              />
-            </div>
-          </div>
-        </form> */}
         <Form {...form}>
           <form onSubmit={handleSubmit} className="space-y-6">
             <FormField
