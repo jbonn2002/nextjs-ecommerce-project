@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import Background from "@/components/background";
 import { Toaster } from "@/components/ui/toaster";
 import localFont from "next/font/local";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const satoshi = localFont({
@@ -30,6 +31,7 @@ export default function RootLayout({
           <Background />
           <Header />
           {children}
+          <SpeedInsights />
           <div className="md:fixed md:bottom-10 md:right-10">
             <ModeToggle />
           </div>
