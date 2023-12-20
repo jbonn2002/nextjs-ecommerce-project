@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, FileText, Github, Linkedin, Twitter } from "lucide-react";
+import { FileText, Github, Linkedin, Twitter } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuItem,

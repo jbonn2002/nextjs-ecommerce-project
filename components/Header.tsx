@@ -1,20 +1,14 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
 import Modal from "./Modal";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
   navigationMenuTriggerStyle,
 } from "./ui/NavigationMenu";
-import { Button } from "./ui/Button";
 
 const Header = () => {
   return (

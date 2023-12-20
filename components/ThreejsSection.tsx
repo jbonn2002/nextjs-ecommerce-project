@@ -77,14 +77,6 @@ function TorusPoints() {
 
   return (
     <points args={[torusKnot]} ref={torushMesh} onClick={changeAnimation}>
-      {/* <pointsMaterial
-        color={"#22c55e"}
-        sizeAttenuation={true}
-        size={0.1}
-        alphaTest={0.5}
-        transparent={true} 
-
-      /> */}
       <PointMaterial
         color={"#22c55e"}
         transparent
