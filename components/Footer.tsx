@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center my-5">
       <NavigationMenu className="m-5 overflow-hidden">
         <NavigationMenuList className="grid grid-cols-2 gap-1 md:flex md:items-center md:justify-center">
           <NavigationMenuItem>
