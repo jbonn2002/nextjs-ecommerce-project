@@ -20,7 +20,7 @@ export default function Home() {
       <p className="desc sm:p-0 p-10 max-w-2xl text-center dark:text-white">
         As a software engineer, I have gained extensive experience in frontend
         development, particularly in JavaScript, TypeScript, React, and Tailwind
-        Css. I am proficient in utilizing frameworks such as React and Next.js
+        CSS. I am proficient in utilizing frameworks such as React and Next.js
         to build dynamic and responsive web applications. Additionally, my
         knowledge of Node.js and MongoDB allows me to seamlessly integrate
         frontend and backend functionalities. Looking to grow and learn, I love
